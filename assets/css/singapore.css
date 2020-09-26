@@ -1,0 +1,29 @@
+header {
+    height: 100vh;
+    position: relative;
+    background: #0e131c url("../img/sing_welcome.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Dividers */
+
+.divider {
+	height: 500px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+}
+
+.divider .topic {
+	color: #f9f9f9;
+}
+
+main section:nth-of-type(2) {
+	background: #24324a url(../img/sing1.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+main section:nth-of-type(4) {
+	background: #24324a url(../img/sing2.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
